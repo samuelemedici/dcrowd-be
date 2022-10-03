@@ -1,21 +1,8 @@
 {
   "canisters": {
-    "dcrowd_be_backend": {
-      "main": "src/dcrowd_be_backend/main.mo",
+    "dcrowd_be": {
+      "main": "src/main.mo",
       "type": "motoko"
-    },
-    "dcrowd_be_frontend": {
-      "dependencies": [
-        "dcrowd_be_backend"
-      ],
-      "frontend": {
-        "entrypoint": "src/dcrowd_be_frontend/src/index.html"
-      },
-      "source": [
-        "src/dcrowd_be_frontend/assets",
-        "dist/dcrowd_be_frontend/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {
