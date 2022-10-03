@@ -8,6 +8,8 @@ import Array "mo:base/Array";
 import Iter "mo:base/Iter";
 import P "mo:base/Prelude";
 
+// Adapted from: https://github.com/SuddenlyHazel/DIP721/blob/main/src/DIP721/DIP721.mo
+
 actor Dip721Nft {
   public shared query (doIOwn__msg) func doIOwn(tokenId : Nat) : async Bool {
     let caller = doIOwn__msg.caller;
@@ -18,8 +20,6 @@ actor Dip721Nft {
   stable var name_ : Text = "ExampleNFT";
 
   stable var symbol_ : Text = "ENFT";
-
-  // Adapted from: https://github.com/SuddenlyHazel/DIP721/blob/main/src/DIP721/DIP721.mo
 
   private type TokenAddress = Principal;
   private type TokenId = Nat;

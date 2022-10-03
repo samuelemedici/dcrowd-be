@@ -32,8 +32,50 @@ dfx start --clean --background
 dfx deploy
 ```
 
-In order to call backend try
+#### Ledger / Wallet
+
+Get ledger balance
 
 ```bash
-dfx canister call dcrowd_be_backend hello
+dfx ledger --network ic balance`
+```
+
+Check cycles balance
+
+```bash
+dfx wallet --network ic balance`
+```
+
+Get wallet id
+
+```bash
+dfx identity --network ic get-wallet`
+```
+
+Set wallet
+
+```bash
+dfx identity --network=ic set-wallet <canister id>
+```
+
+#### Identity
+
+Get current identity Principal
+
+```bash
+dfx identiy get-principal
+```
+
+In order to call minting canister try
+
+```bash
+dfx canister call nftController name
+```
+
+#### Utilities
+
+Transfer NFT from one Principal to another
+
+```bash
+dfx canister call nftController transferFrom '(principal "first_principal", principal "second_principal", tokenId)
 ```

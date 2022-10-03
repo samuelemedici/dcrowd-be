@@ -1,7 +1,11 @@
 {
   "canisters": {
-    "dcrowd_be": {
-      "main": "src/main.mo",
+    "nftController": {
+      "main": "src/nft/main.mo",
+      "type": "motoko"
+    },
+    "marketplaceController": {
+      "main": "src/marketplace/main.mo",
       "type": "motoko"
     }
   },
