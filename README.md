@@ -1,6 +1,8 @@
 # dCROWD - bridging people around events
 
 ### Welcome to dCrowd and to the Internet Computer development community!
+![dCrowd_logo](https://user-images.githubusercontent.com/98580234/194874704-5bcefb6a-dad8-4b79-ac5c-55e96592a90c.jpeg)
+
 
 # ABOUT dCROWD
 _**dCrowd**_ is a decrentralized crowdfunding platform that allows event planners all over the world to fund their events through NFT sales. In the case of a successful crowdfunding, the non-fungible tokens offered as perks will be used as tickets to grant access to the event itself, be it a webinar, a real-life or even a Metaverse occurrence. The highlight of _**dCrowd**_ is to be based on [Dfinity](https://dfinity.org) and make smart use of its cross-chain technology. As of October 2022, dCrowd supports a Dfinity Internet Computer ICP-ETH Etherum bridge, and it aims at extending the payout opportunity as more blockchain assets become IC-compatible with Dfinity's establishment of new bridges.
