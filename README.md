@@ -1,6 +1,6 @@
 # dCROWD - bridging people around events
 
-### Welcome to dCrowd and to the Internet Computer development community!
+### Welcome to dCrowd and the Internet Computer development community!
 ![dCrowd_logo](https://user-images.githubusercontent.com/98580234/194874704-5bcefb6a-dad8-4b79-ac5c-55e96592a90c.jpeg)
 
 
@@ -12,12 +12,19 @@ The dApp is as straightforward and essential as it can be. It consists of:
 - **Dashboard:** to browse all the to-be-funded events and discover what is trending in the world(s)
 - **Event detail:** to find out more about the event you are considering funding
 - **Event creation section:** where the organizer can fill in details about their event and submit it to dCrowd
+- **Wallet connection:** where users connect their PlugWallets
 
 ### dCrowd - Dashboard
 ![dCrowd_UI_dashboard](https://user-images.githubusercontent.com/98580234/194858783-987b6cf8-7437-4b69-b5be-4f7ada3333db.jpeg)
 
 ### dCRowd - Event detail
 ![dCrowd_UI_event_detail](https://user-images.githubusercontent.com/98580234/194860902-a26911b1-3c64-40be-acec-16e7567af822.jpeg)
+
+### dCrowd - PlugWallet connection
+<img width="492" alt="Screenshot 2022-10-10 at 16 32 27" src="https://user-images.githubusercontent.com/98580234/194891083-c3fded4c-0ea1-466e-9470-79bb6caac18f.png">
+
+### dCrowd - Success message
+<img width="930" alt="Screenshot 2022-10-10 at 16 33 31" src="https://user-images.githubusercontent.com/98580234/194891226-279a7784-7d26-4d69-8f01-39fb0d44f1a9.png">
 
 
 # HOW dCROWD WORKS
