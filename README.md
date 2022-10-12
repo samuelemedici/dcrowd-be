@@ -43,14 +43,15 @@ By default an event planner's NFT are minted on the IC but, thanks to the ICP-ET
 In order to use the NFTs as tickets, some event may require a QR code to be read to grant access.
 ![eventQRcode](https://user-images.githubusercontent.com/98580234/194864440-44d86cd0-ed00-4a9c-ac15-c9a42d2d099c.png)
 
+# ATTACK PREVENTION
+
+<img width="639" alt="Screenshot 2022-10-12 at 20 10 39" src="https://user-images.githubusercontent.com/98580234/195417353-4dddccb5-e639-47d7-aaae-c16974690417.png">
 
 # BEHIND THE IDEA, BEYOND TECH
 _**dCrowd**_'s structure and functioning are based on fine market research. A survey was conducted from a pool of participant selected via random sampling procedure. Among the 70 participants, 68 filled the survey with complete and analysable results. The age of the majority of respondents was between 26 and 30 years old (36.8%), followed by the lowest age range (21-25, 33.8%) and, finally, by the category of age of 50 y/o or more (20.6%).
 
 [**CLICK HERE TO ACCESS THE FULL REPORT**](https://github.com/samuelemedici/dcrowd-be/files/9745900/d-Crowd.survey.potential.use.pdf)
 <img width="859" alt="Screenshot 2022-10-10 at 14 20 18" src="https://user-images.githubusercontent.com/98580234/194866471-faa2a119-9f94-4630-a797-e88815ff4dda.png"> <img width="862" alt="Screenshot 2022-10-10 at 14 20 56" src="https://user-images.githubusercontent.com/98580234/194866234-d41869f1-2128-40ac-a739-f5bbae079a2c.png">
-
-
 
 
 # DIRECTORY STRUCTURE
