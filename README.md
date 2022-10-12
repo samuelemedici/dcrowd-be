@@ -28,7 +28,14 @@ The dApp is as straightforward and essential as it can be. It consists of:
 
 
 # HOW dCROWD WORKS
-By default an event planner's NFT are minted on the IC but, thanks to the ICP-ETH bridge, it is possible to purchase them and fund the even in either ICP or ETH. Indeed _**dCrowd**_ allows easy connection to two key technologies to interact with these ecosystems: [PlugWallet](https://plugwallet.ooo) - Internet Computer crypto wallet - and [WalletConnect](https://walletconnect.com) to facilitate the use of any non-ICP-specific wallet within the platform.
+_**dCrowd**_ is a full responsive web platform which users can interface with by authenticating through Internet Identity and connecting a wallet using the tools provided by PlugWallet, a wallet plugin that allows storing and managing NFTs and tokens on the Internet Computer.
+
+The development stack includes NextJS, a NodeJS based-technology which utilizes cutting-edge features such as Server-Side Rendering, Typescript and Tailwind framework. In order to operate, the web application communicates with a backend [canister](https://github.com/dfinity/sdk) developed in Motoko and deployed directly on the Internet Computer network. The canister is based on the DIP721 NFT standard, which is the IC-adapted counterpart of the ERC721 NFT Standard for Ethereum. 
+
+Being the whole crosschain experience made possible by the integration of Terabethia, a cross chain protocol that allows asset mirroring between the Internet Computer and Ethereum blockchains, _**dCrowd**_ allows easy connection to two key technologies to interact with these ecosystems: [PlugWallet](https://plugwallet.ooo) - Internet Computer crypto wallet - and [WalletConnect](https://walletconnect.com) to facilitate the use of any non-ICP-specific wallet within the platform.
+
+By default an event planner's NFT are minted on the IC but, thanks to the ICP-ETH bridge, it is possible to purchase them in either ICP or ETH. Users will receive live conversion data between ETH and ICP through the connection with an external API (e.g. CoinGeko).
+Etherum users will be granted the opportunity of buying IC-standard NFTs by easily exchanging ETH with ICP, through a ETH burn/retrieve process. In this case, users will be redirected to Terabethia which will process the currency swap. Once successful, dCrowd will make a balance check on the user’s PlugWallet and process the transaction.
 
 ### WalletConnect & PlugWallet connections
 ![DIAGRAM_WalletConnection](https://user-images.githubusercontent.com/98580234/194863856-a1d2506c-0e34-4b63-8269-ee65a34d9131.png) ![PlugWallet_connection](https://user-images.githubusercontent.com/98580234/194862499-a353d21b-0ffa-4655-afde-ae14f34a6f57.png)
@@ -44,6 +51,7 @@ In order to use the NFTs as tickets, some event may require a QR code to be read
 ![eventQRcode](https://user-images.githubusercontent.com/98580234/194864440-44d86cd0-ed00-4a9c-ac15-c9a42d2d099c.png)
 
 # ATTACK PREVENTION
+To ensure the platform’s safety, continuous auditing is planned on each smart contract from the pre-deployment phase on, including the prompt notice of abnormal transactions and assuring an insurance fund in the budget plan. Planning ahead on further platform enhancements, it will be possible to implement a Motoko compatible version of the static analysis framework based on the current Solidity’s Slither.
 
 <img width="639" alt="Screenshot 2022-10-12 at 20 10 39" src="https://user-images.githubusercontent.com/98580234/195417353-4dddccb5-e639-47d7-aaae-c16974690417.png">
 
